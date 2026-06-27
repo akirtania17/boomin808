@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Trained model weights (regenerate with: python -m ml.train)
+ml/checkpoints/
+*.pt
+
+# Generated audio (keep the examples/ folder, ignore rendered one-shots)
+examples/*.wav
+!examples/.gitkeep
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
