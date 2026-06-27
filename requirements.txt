@@ -1,0 +1,10 @@
+# ML one-shot generator (ml/)
+torch
+numpy
+scipy
+
+# Interactive 808 tone-shaping tool (Boomin.py)
+customtkinter
+pedalboard
+pillow
+requests
